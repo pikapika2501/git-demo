@@ -70,3 +70,12 @@ Key Concepts
 			>reverese chronological order
 			> git help log
 			> git log --oneline --graph --decorate --color
+			
+		**undo
+			>create a file e.g.: new.txt
+			> git status
+			>git add .
+			>git commit -m "added a file"
+			>git status
+			>git rm "new.txt"
+			
