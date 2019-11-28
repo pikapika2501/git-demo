@@ -1,0 +1,72 @@
+http://git.training/fast
+
+Key Concepts
+	- branch:
+		- timeline with commits
+		- master is the main, default branch
+	- Head
+		- Pointer to last commit on branch
+	- Remote
+		- Related repository - but not local
+		- GitHub, Gitlab, Bitbucket and others
+		
+*commandline
+	- type git version to validate if you have installed git.
+	
+*how to get help
+	- git help
+		- will throw git options
+	- git help config
+		*on windows > this will open and web browser and display the same information.
+		*on linux, navigate using up or down key button. else, q to exit from help.
+		
+	*git help <command>
+	
+*git initial
+	*pwd
+	present working directory
+	*git config --global
+		*configure at the global or user level config settings
+		*will be independent of any repo > used in the future
+		*git config --global user.name "pikapika2501"
+			> make the username to pikapika2501
+		*git config user.name
+			> to display
+		*git config --global user.email "fpgaetos@gmail.com"
+		*git config --global --list
+		*cat ~/.gitconfig
+		*echo ~
+			> to know your home directory
+		*git init <project-name>
+		*git status
+			> will tell what branch you're at
+			> see untrack file
+		*git add <FILE>
+			git add README.md
+		*git status
+			> will then relay git location (global),
+			> current status such as "Changes to be committed"
+		*then> git commit -m "comment for your commit"
+		*then> git status
+			> will show nothing to commit which is the current status of your git session
+		*after making another change, git is continuously monitoring a directory.
+		*then put in
+			> git status
+			*aside from the detail about the files available for commit, it says "git commit -a" is an option.
+		*git commit -am "commit comments"
+		*git add .
+			> all will be added.
+		*after you make mod
+			>git status
+			>git checkout <file-name>
+			or
+			>git add <file-name>
+			>git reset HEAD <file-name>
+			>git checkout -- README.md
+		
+		*git log
+			>git log
+			>q to exit
+			>reverese chronological order
+			> git help log
+			> git log --oneline --graph --decorate --color
