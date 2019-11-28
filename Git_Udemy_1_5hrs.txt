@@ -110,10 +110,7 @@ Key Concepts
 			> .pub file will be the public side -> can be sent to github
 			
 		>create an account to github
-			github.com
-			pikapika2501
-			fpgaetos@gmail.com
-			giT$2501
+			
 			go through email verification
 			settings
 			add public key details
@@ -139,4 +136,6 @@ Key Concepts
 				**but do pull first to see if there's a change on the master (or branch)
 				
 				git pull origin master
-				
+				 
+				which git
+					tells you where the git is installed
