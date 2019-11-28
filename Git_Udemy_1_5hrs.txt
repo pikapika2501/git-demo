@@ -79,3 +79,9 @@ Key Concepts
 			>git status
 			>git rm "new.txt"
 			
+			>if you did an rm... without git (git rm...)
+				>git add will not work
+			>git add -u
+				>git status
+				>git commit -m "removing new file"
+				> not happening on 2.0 versoin of git
