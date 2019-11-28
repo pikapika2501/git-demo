@@ -96,4 +96,6 @@ Key Concepts
 				>git add  Git_Udemy_1_5hrs.txt index.js web/
 				git commit -m "message"
 				
+		**git log --reverse --oneline --decorate --color
 		
+		**git log --oneline --graph --decorate --color
