@@ -135,3 +135,8 @@ Key Concepts
 				
 				then on the second time around
 					git push origin master
+				
+				**but do pull first to see if there's a change on the master (or branch)
+				
+				git pull origin master
+				
