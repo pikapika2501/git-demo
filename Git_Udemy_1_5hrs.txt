@@ -85,3 +85,14 @@ Key Concepts
 				>git status
 				>git commit -m "removing new file"
 				> not happening on 2.0 versoin of git
+				
+			>file structure modification
+				> create folder web
+				> move file index.js to web
+				>git status
+				>git add .
+				>git commit -m "message"
+				or
+				>git add  Git_Udemy_1_5hrs.txt index.js web/
+				git commit -m "message"
+				
