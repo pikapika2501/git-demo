@@ -5,6 +5,7 @@ const app = express();
 
 console.log("starting app");
 
+//simple handler.
 app.get(
     '/',
     (req, res) => {
