@@ -129,3 +129,9 @@ Key Concepts
 				git status
 				*commit all.
 				
+				git remove -v
+				git push -u origin
+					> do this on the first connection only
+				
+				then on the second time around
+					git push origin master
