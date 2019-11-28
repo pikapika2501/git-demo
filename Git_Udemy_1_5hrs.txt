@@ -99,3 +99,33 @@ Key Concepts
 		**git log --reverse --oneline --decorate --color
 		
 		**git log --oneline --graph --decorate --color
+		
+		**git commit -am "notes"
+		
+	creating ssh key
+		>on a directory execute:
+			>ssh-keygen -t rsa -C "fpgaetos@gmail.com"
+		>it will be saved under userprofile home (~) under .ssh forlder
+			> 2 files (id_rsa and id_rsa.pub)
+			> .pub file will be the public side -> can be sent to github
+			
+		>create an account to github
+			github.com
+			pikapika2501
+			fpgaetos@gmail.com
+			giT$2501
+			go through email verification
+			settings
+			add public key details
+			go to .ssh directory
+			execute
+				ssh -T git@github.com
+			create repository in github
+				public>
+				then ssh>
+					>copy the ssh command
+					git remote add origin git@github.com:pikapika2501/git-demo.git
+				go to your working directory.
+				git status
+				*commit all.
+				
